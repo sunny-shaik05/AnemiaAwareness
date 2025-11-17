@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guide | Anemia Awareness</title>
+  <link rel="stylesheet" href="guide.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">AnemiaAware</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="guide.html" class="active">Guide</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Prevention Tips -->
+  <section class="prevention">
+    <h2>How to Prevent Anemia</h2>
+    <ul>
+      <li>Eat iron-rich foods like spinach, lentils, and red meat.</li>
+      <li>Include vitamin C to help absorb iron better.</li>
+      <li>Take iron supplements if prescribed.</li>
+      <li>Get regular health checkups and blood tests.</li>
+      <li>Stay hydrated and maintain a balanced diet.</li>
+    </ul>
+  </section>
+
+  <!-- Symptoms with Images -->
+  <section class="symptoms">
+    <h2>Common Symptoms of Anemia</h2>
+    <div class="symptom-grid">
+      <div class="symptom-card">
+        <img src="assets/fatigue.jpeg" alt="Fatigue" />
+        <p>Fatigue</p>
+      </div>
+      <div class="symptom-card">
+        <img src="assets/pale skin.avif" alt="Pale Skin" />
+        <p>Pale Skin</p>
+      </div>
+      <div class="symptom-card">
+        <img src="assets/dizziness.jpeg" alt="Dizziness" />
+        <p>Dizziness</p>
+      </div>
+      <div class="symptom-card">
+        <img src="assets/breathing.jpeg" alt="Shortness of Breath" />
+        <p>Shortness of Breath</p>
+      </div>
+      <div class="symptom-card">
+        <img src="assets/irondef.jpeg" alt="Shortness of Breath" />
+        <p>Iron Deficiency</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Symptom Checker -->
+  <section class="checker">
+    <h2>Check Your Symptoms</h2>
+    <input type="text" id="symptomInput" placeholder="Enter your symptom..." />
+    <button onclick="checkSymptom()">Check</button>
+    <p id="symptomResult"></p>
+  </section>
+
+  <!-- Contact Us -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: anemiaaware@health.org</p>
+    <p>Phone: +91-9876543210</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Anemia Awareness Team. All rights reserved.</p>
+  </footer>
+
+  <script src="guide.js"></script>
+</body>
+</html>

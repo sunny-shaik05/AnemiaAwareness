@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #fff8f8;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b33a3a;
+  padding: 1rem 2rem;
+}
+
+nav .logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.project-title {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffe6e6;
+}
+
+.project-title h2 {
+  color: #b33a3a;
+}
+
+.weeks-container {
+  padding: 2rem;
+}
+
+.week {
+  margin-bottom: 3rem;
+  animation: fadeInUp 1s ease;
+}
+
+.week h3 {
+  color: #b33a3a;
+  margin-bottom: 1rem;
+}
+
+.week-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.week-images img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.week-images img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
